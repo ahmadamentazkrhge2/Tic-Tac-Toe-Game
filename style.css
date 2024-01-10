@@ -1,0 +1,54 @@
+.square{
+    background-color: brown;
+   width:27%;
+   height:170px;
+   font-size:130px;
+
+}
+
+.game{
+    text-align: center;
+    font-family: system-ui;
+    margin:auto;
+    width:100%;
+    color:white;
+   font-size:25px;
+
+}
+
+.title{
+    background-color: #f25;
+    padding:20px;
+    font-size:30px;
+}
+
+span{
+    color:#fa0;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+row-gap: 5px;
+column-gap: 5px;
+margin-top:2px;
+
+}
+
+@media (min-width:992px) {
+    .square{
+        height:200px;
+    }
+}
+
+@media (min-width:1200px) {
+    .square{
+width:25%;
+    }
+}
+
+.square:hover{
+    background-color: rgb(35, 31, 31);
+    cursor:pointer;
+}
